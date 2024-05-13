@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foobar Extension Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Foobar Extension Dashboard</h1>
+
+    <div class="section" id="thirdPartyConnections">
+        <h2>Conexões a Domínios de Terceira Parte</h2>
+        <p>Total de conexões de terceira parte: <span id="thirdPartyCount">0</span></p>
+    </div>
+
+    <div class="section" id="hijackingThreats">
+        <h2>Potenciais Ameaças de Sequestro de Navegador (Hijacking e Hook)</h2>
+        <p>Total de ameaças detectadas: <span id="hijackingCount">0</span></p>
+    </div>
+
+    <div class="section" id="dataStorage">
+        <h2>Detecção de Armazenamento de Dados no Dispositivo do Usuário</h2>
+        <p>Local Storage Utilizado: <span id="localStorageUsage">0</span> itens</p>
+        <p>Session Storage Utilizado: <span id="sessionStorageUsage">0</span> itens</p>
+    </div>
+
+    <div class="section" id="cookiesInfo">
+        <h2>Cookies e Supercookies Injetados</h2>
+        <p>Total de Cookies de Primeira Parte: <span id="firstPartyCookiesCount">0</span></p>
+        <p>Total de Cookies de Terceira Parte: <span id="thirdPartyCookiesCount">0</span></p>
+    </div>
+
+    <div class="section" id="canvasFingerprint">
+        <h2>Detecção de Canvas Fingerprint</h2>
+        <p>Status: <span id="canvasFingerprintStatus">Não Detectado</span></p>
+    </div>
+
+    <div class="section" id="privacyScore">
+        <h2>Pontuação de Privacidade</h2>
+        <p>Pontuação: <span id="privacyScoreValue">100</span></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
