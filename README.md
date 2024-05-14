@@ -45,13 +45,3 @@ Contribuições são sempre bem-vindas! Se você tem sugestões para melhorar a 
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE.md para detalhes.
-```
-
-### Notas sobre o README
-
-- **Descrição Geral**: Oferece uma visão clara do propósito e das funcionalidades da extensão.
-- **Instruções de Instalação e Uso**: Instruções passo a passo garantem que usuários menos experientes possam instalar e começar a usar a extensão sem dificuldades.
-- **Seção de Contribuição**: Encoraja a comunidade a contribuir para o desenvolvimento da extensão.
-- **Licença**: Informa sobre a licença sob a qual a extensão é distribuída, esclarecendo o que os usuários podem e não podem fazer com o código.
-
-Certifique-se de adaptar os URLs de exemplo e adicionar informações específicas conforme necessário para adequar o README ao seu projeto específico.
